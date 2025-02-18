@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonit Kumar Yadav - Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #007bff;
+        }
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        .btn-custom {
+            margin: 10px;
+        }
+        .sample-photo {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="brp.JPG" alt="Sonit Kumar Yadav" class="profile-img">
+        <h1 class="mt-3">Sonit Kumar Yadav</h1>
+        <h4 class="text-muted">BIT Student of Nepal</h4>
+        <p class="mt-3">I am here to support your journey towards Editing video and photo. My role is to guide you through the complexities of Video design and photo Editing, making learning engaging and effective.</p>
+        
+        <h5 class="mt-4">What I Offer</h5>
+        <ul class="list-group list-group-flush text-start d-inline-block">
+            <li class="list-group-item">🎥 Online Class [Video Design, Photo Editing, and HTML Program]</li>
+            <li class="list-group-item">💼 Tech Consultation [Helping Organizations to Become Digital and Increase Revenue]</li>
+        </ul>
+
+        <h5 class="mt-4">Sample Work</h5>
+        <img src="brp.JPG" alt="Sample Work" class="sample-photo">
+
+        <h5 class="mt-4">Contact</h5>
+        <a href="https://www.facebook.com/sonits960" class="btn btn-primary btn-custom" target="_blank">Facebook</a>
+        <a href="mailto:sonits960@gmail.com" class="btn btn-success btn-custom">Email</a>
+        <a href="https://youtube.com/@innocent_sonits960" class="btn btn-danger btn-custom" target="_blank">YouTube</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
